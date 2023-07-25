@@ -1,0 +1,27 @@
+/* PC */
+@media (min-width: 64em) {}
+
+/* TABLET */
+@media (min-width:46.25em) and (max-width: 63.9375em) {
+   
+}
+
+
+
+/* MOBILE */
+
+@media (max-width: 46.1875em) {
+
+    .stayHome {
+        height: 30vh;
+        
+      }
+      
+      .stayHome h1 {
+        font-size: 50px;
+      }
+      
+      .stayHome p {
+        font-size: 18px;
+      }
+}

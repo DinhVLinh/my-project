@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carts</title>
+
+    <link rel="stylesheet" href="./css/main/products.css" />
+    <link rel="stylesheet" href="./css/main/cart.css" />
+    <link rel="stylesheet" href="./css/reponsive/homeReponsive.css" />
+    <link rel="stylesheet" href="./css/reponsive/cartReponsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="./img/logo.png" />
+  </head>
+  <body>
+    <section class="header">
+      <div class="header-item">
+        <img src="./img/logo.png" alt="" class="header-item__logo" />
+      </div>
+      <div class="header-item">
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <i id="closeNavButton" class="fa-solid fa-xmark"></i>
+          </li>
+          <li class="nav-list__item">
+            <a class="" href="index.html">Home</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="shop.html">Shop</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="blog.html">Blog</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="about.html">About</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="contact.html">Contact</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="cart.html">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </a>
+          </li>
+        </ul>
+
+        <div class="bar">
+          <div class="shopIcon">
+            <a href="cart.html">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </a>
+          </div>
+          <div class="barIcon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cart-slogan">
+      <h1>#cart</h1>
+      <span>Add your coupons code & SAVE upto 70%!</span>
+    </section>
+
+    <section class="cart">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="">
+                <i class="fa-solid fa-trash"></i>
+              </a>
+            </td>
+            <td>
+              <img src="./img/products/f1.jpg" alt="" class="table-img" />
+            </td>
+            <td>
+              <span> Cartoon Astronaut T-Shirts </span>
+            </td>
+            <td>
+              <span> $118.19 </span>
+            </td>
+            <td><input type="number" value="1" /></td>
+            <td>
+              <span> $118.19 </span>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="">
+                <i class="fa-solid fa-trash"></i>
+              </a>
+            </td>
+            <td>
+              <img src="./img/products/f2.jpg" alt="" class="table-img" />
+            </td>
+            <td>
+              <span> Cartoon Astronaut T-Shirts </span>
+            </td>
+            <td>
+              <span> $118.19 </span>
+            </td>
+            <td><input type="number" value="1" /></td>
+            <td>
+              <span> $118.19 </span>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="">
+                <i class="fa-solid fa-trash"></i>
+              </a>
+            </td>
+            <td>
+              <img src="./img/products/f3.jpg" alt="" class="table-img" />
+            </td>
+            <td>
+              <span> Cartoon Astronaut T-Shirts </span>
+            </td>
+            <td>
+              <span> $118.19 </span>
+            </td>
+            <td><input type="number" value="1" /></td>
+            <td>
+              <span> $118.19 </span>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="">
+                <i class="fa-solid fa-trash"></i>
+              </a>
+            </td>
+            <td>
+              <img src="./img/products/f4.jpg" alt="" class="table-img" />
+            </td>
+            <td>
+              <span> Cartoon Astronaut T-Shirts </span>
+            </td>
+            <td>
+              <span> $118.19 </span>
+            </td>
+            <td><input type="number" value="1" /></td>
+            <td>
+              <span> $118.19 </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="apply">
+      <div class="apply-coupon">
+        <h1>Apply Coupon</h1>
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="Enter Your Coupon"
+          class="apply-coupon__inp"
+        />
+        <div>
+          <button>Apply</button>
+        </div>
+      </div>
+
+      <div class="cart-total">
+        <h1>Cart Totals</h1>
+        <table>
+          <tr>
+            <td>
+              <span>Cart Subtotal</span>
+            </td>
+
+            <td>
+              <span>$335</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <span>Shipping</span>
+            </td>
+
+            <td>
+              <span>Free</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <h2>Total</h2>
+            </td>
+
+            <td>
+              <h2>$335</h2>
+            </td>
+          </tr>
+        </table>
+        <button>Proceed to checkout</button>
+      </div>
+    </section>
+
+    <section class="banner3">
+      <div class="banner3-title">
+        <h2>Sign Up For Newsletters</h2>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers.</span>
+        </p>
+      </div>
+
+      <div class="banner3-email">
+        <input
+          type="text"
+          name=""
+          placeholder="Your email address"
+          class="banner3-inp"
+        />
+        <button class="banner3-btn">Sign Up</button>
+      </div>
+    </section>
+
+    <section class="footer">
+      <ul class="footer-list">
+        <li class="footer-item">
+          <img src="./img/logo.png" alt="" class="footer-logo" />
+          <h3>Contact</h3>
+          <p>Address: <span>Paris, France</span></p>
+          <p>Phone: <span>0366561558</span></p>
+          <p>Hours: <span>GMT+2</span></p>
+
+          <div class="footer-follow">
+            <h3>Follow Us</h3>
+            <div class="icon-list">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-google"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </li>
+        <li class="footer-item">
+          <h3>About</h3>
+          <p>About Us</p>
+          <p>Delevery Information</p>
+          <p>Primary Policy</p>
+          <p>Terms & Conditions</p>
+          <p>Contact Us</p>
+        </li>
+        <li class="footer-item">
+          <h3>My Account</h3>
+          <p>Sign In</p>
+          <p>View Cart</p>
+          <p>My Wishlist</p>
+          <p>Track My Order</p>
+          <p>Help</p>
+        </li>
+        <li class="footer-item">
+          <h3>Install App</h3>
+          <p>From App Store or Google Play</p>
+          <div class="imgList">
+            <img src="./img/pay/app.jpg" alt="" />
+            <img src="./img/pay/play.jpg" alt="" />
+          </div>
+          <p>Secured Payment Gateways</p>
+          <img src="./img/pay/pay.png" alt="" class="footer-pay" />
+        </li>
+      </ul>
+
+      <p class="footerBottom">
+        <span>Dinh Van Linh</span>, 9/7/2023 - 19/7/2023
+      </p>
+    </section>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

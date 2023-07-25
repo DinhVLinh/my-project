@@ -1,0 +1,81 @@
+/* KNOW */
+.know{
+    background: url(/final/img/about/banner.png) top center / cover no-repeat;
+    width: 100%;
+    height: 40vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.know h1{
+    font-size: 75px;
+    color: white;
+}
+
+.know span{
+    font-size: 26px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* WHO */
+
+.who{
+    display: flex;
+    padding: 50px 100px;
+}
+
+.who-img{
+    width: 50%;
+}
+
+.who-img img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.who-desc{
+    width: 50%;
+    margin: 50px 0 0 50px;
+}
+
+.who-desc h1{
+    font-size: 50px;
+}
+
+.who-desc span{
+    font-size: 18px;
+    margin-top: 30px;
+    color: gray;
+}
+
+/* DONWLOAD APP */
+
+.downApp{
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.downApp h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.video{
+    width: 70%;
+    height: 100%;
+    margin:  0 auto;
+
+}
+
+.video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}

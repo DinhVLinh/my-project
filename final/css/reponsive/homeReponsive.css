@@ -1,0 +1,444 @@
+/* PC */
+@media (min-width: 64em) {}
+
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+
+  /* HEADER */
+  .header {
+    position: relative;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: white;
+    display: none;
+    z-index: 1;
+  }
+
+  .nav-list__item:first-child {
+    display: block;
+  }
+
+  .nav-list__item:last-child {
+    display: none;
+  }
+
+  .nav-list__item {
+    margin: 30px;
+    font-size: 30px;
+  }
+
+  .nav-list__item a {
+    font-size: 30px;
+  }
+
+  .bar {
+    display: block;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+  }
+
+  .shopIcon i {
+    margin-right: 30px;
+    position: relative;
+    top: -1px;
+    color: black;
+  }
+
+  .active {
+    display: block;
+  }
+
+  /* BANNER */
+  .banner {
+    height: 50vh;
+  }
+
+  .banner__desc {
+    margin-left: 50px;
+  }
+
+  .banner__desc h3 {
+    font-size: 30px;
+  }
+
+  .banner__desc h1 {
+    font-size: 50px;
+  }
+
+  .banner__desc h2 {
+    font-size: 50px;
+    color: #00ce8d;
+  }
+
+  .banner__desc p {
+    font-size: 20px;
+    color: gray;
+  }
+
+  /* FEATURE */
+
+  .feature-item {
+    margin-top: 30px;
+  }
+
+  /* PRODUCT */
+  .pro {
+    width: 45%;
+  }
+
+  /* BANNER2 */
+  .banner2 {
+    height: 30vh;
+  }
+
+  /* SM BANNER1 */
+  .sm-banner1 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .sm-banner1-box {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .sm-banner1-box__desc {
+    margin: 70px 0 0 50px;
+  }
+
+  /* SM BANNER2 */
+
+  .sm-banner2-box {
+    height: 20vh;
+  }
+
+  .sm-banner2-box__desc {
+    margin: 80px 0 0 10px;
+  }
+
+  .sm-banner2-box__desc h2 {
+    font-size: 20px;
+  }
+
+  .sm-banner2-box__desc h4 {
+    font-size: 16px;
+  }
+
+  /* BANNER 3 */
+  .banner3 {
+    height: 30vh;
+    padding: 0 30px;
+  }
+
+  /* FOOTER */
+}
+
+/* MOBILE */
+
+@media (max-width: 46.1875em) {
+
+  /* HEADER */
+  .header {
+    position: relative;
+    padding: 10px 20px;
+  }
+
+  .header-item__logo {
+    width: 100%;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: white;
+    display: none;
+    z-index: 1;
+  }
+
+  .nav-list__item:first-child {
+    display: block;
+  }
+
+  .nav-list__item:last-child {
+    display: none;
+  }
+
+  .nav-list__item {
+    margin: 30px;
+    font-size: 30px;
+  }
+
+  .nav-list__item a {
+    font-size: 30px;
+  }
+
+  .bar {
+    display: block;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .shopIcon i {
+    margin-right: 30px;
+    position: relative;
+    top: -1px;
+    color: black;
+  }
+
+  .active {
+    display: block;
+  }
+
+  /* BANNER */
+  .banner {
+    height: 40vh;
+  }
+
+  .banner__desc {
+    margin-left: 14px;
+  }
+
+  .banner__desc h3 {
+    font-size: 20px;
+  }
+
+  .banner__desc h1 {
+    font-size: 20px;
+  }
+
+  .banner__desc h2 {
+    font-size: 20px;
+    color: #00ce8d;
+  }
+
+  .banner__desc p {
+    font-size: 1px;
+    color: gray;
+  }
+
+  .banner__desc button {
+    padding: 8px 30px;
+    font-size: 14px;
+    color: gray;
+  }
+
+  /* FEATURE */
+  .feature-list {
+    justify-content: center;
+  }
+
+  .feature-item {
+    margin-top: 30px;
+  }
+
+  /* PRODUCT */
+  .product {
+    padding: 0 30px;
+  }
+
+  .product-title h1 {
+    font-size: 30px;
+  }
+
+  .product-title span {
+    font-size: 14px;
+  }
+
+  .pro {
+    width: 100%;
+  }
+
+  .pro__img {
+    height: 280px;
+  }
+
+  /* BANNER2 */
+  .banner2 {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .banner2 h5 {
+    font-size: 20px;
+  }
+
+  .banner2 h2 {
+    font-size: 26px;
+  }
+
+  .banner2 span {
+    font-size: 26px;
+  }
+
+  /* SM BANNER1 */
+  .sm-banner1 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px
+  }
+
+  .sm-banner1-box {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .sm-banner1-box__desc {
+    margin: 36px 0 0 20px
+  }
+
+  .sm-banner1-box__desc span {
+    font-size: 16px;
+  }
+
+  .sm-banner1-box__desc h4 {
+    font-size: 20px;
+    margin: 4px 0;
+
+  }
+
+  .sm-banner1-box__desc p {
+    font-size: 16px;
+
+  }
+
+  .sm-banner1-box__desc button {
+    padding: 6px 20px;
+    margin-top: 4px;
+
+  }
+
+
+  /* SM BANNER2 */
+  .sm-banner2 {
+    padding: 0 10px;
+    margin: 50px 0;
+    display: flex;
+  }
+
+  .sm-banner2-box {
+    height: 20vh;
+  }
+
+  .sm-banner2-box__desc {
+    margin: 30px 0 0 10px;
+  }
+
+  .sm-banner2-box__desc h2 {
+    font-size: 16px;
+  }
+
+  .sm-banner2-box__desc h4 {
+    font-size: 12px;
+  }
+
+  /* BANNER 3 */
+  .banner3 {
+    height: 30vh;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .banner3-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner3-title h2 {
+    font-size: 20px;
+  }
+
+  .banner3-title p {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .banner3-title span {
+    font-size: 14px;
+  }
+
+  .banner3-inp {
+    padding: 10px 50px 10px 10px;
+  }
+
+  .banner3-btn {}
+
+  /* FOOTER */
+
+  .footer-list {
+    padding: 10px;
+  }
+
+  .footer-item {
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  .footer-item h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .footer-item p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: gray;
+    margin: 20px 0;
+  }
+
+  .icon-list {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+
+  .icon-list i {
+    font-size: 20px;
+    margin-left: 6px;
+  }
+
+  .imgList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imgList img {
+    border: 1px solid #0b9112;
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 4px;
+  }
+
+  .footerBottom {
+    font-size: 24px;
+  }
+
+  .footer-pay {
+    width: 70%;
+  }
+
+}

@@ -1,0 +1,115 @@
+/* PC */
+@media (min-width: 64em) {}
+
+/* TABLET */
+@media (min-width:46.25em) and (max-width: 63.9375em) {
+    /* KNOW */
+    .know{
+        margin-top: 30px;
+        height: 30vh;
+    }
+
+    /* WHO */
+
+    
+    .who{
+        padding:20px;
+    }
+
+    .who-img img {
+        height: 100%;
+    }
+
+    .who-desc{
+        margin: 0 0 0 50px;
+        width: 50%;
+    }
+
+    .who-desc h1{
+        font-size: 30px;
+    }
+    
+    .who-desc span{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    /* DOWNLOAD APP */
+    .downApp{
+        margin: 20px 100px;
+    }
+
+    .video h1{
+        font-size: 40px;
+    }
+
+    .video{
+        width: 100%;
+    }
+    
+}
+
+/* MOBILE */
+
+@media (max-width: 46.1875em) {
+
+     /* KNOW */
+     .know{
+      margin: 0;
+    }
+
+    
+    .know h1{
+        font-size: 50px;
+    }
+
+    .know span{
+        font-size: 18px;
+    }
+
+    /* WHO */
+    .who{
+        padding:20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .who-img{
+        width: 100%;
+    }
+
+    .who-img img {
+        height: 100%;
+    }
+
+    .who-desc{
+        width: 100%;
+        margin: 20px 0;
+        padding: 10px;
+    }
+
+    .who-desc h1{
+        font-size: 30px;
+        margin: 10px 0;
+
+    }
+    
+    .who-desc span{
+        font-size: 14px;
+    }
+
+    /* DOWNLOAD APP */
+    .downApp{
+        margin: 0 10px;
+    }
+
+    .downApp h1{
+        font-size: 30px;
+    }
+
+    .video{
+        width: 100%;
+    }
+}
