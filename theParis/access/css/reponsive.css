@@ -1,0 +1,164 @@
+/* PC */
+@media (min-width: 64em) {}
+
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {}
+
+
+
+/* MOBILE */
+
+@media (max-width: 46.1875em) {
+
+  /* MOBILE MENU */
+  #header {
+    overflow: hidden;
+  }
+
+  .header-navigation {
+    margin-bottom: -40px;
+  }
+
+  .header-navigation__list {
+    width: 100%;
+    top: -14px;
+    padding: 6px 0;
+  }
+
+  .header-navigation__list>.header-navigation__item:first-child {
+    display: inline-block;
+  }
+
+  .header-navigation__item {
+    display: block;
+    margin-left: -12px;
+    padding: 12px 14px;
+    position: relative;
+  }
+
+  .header-navigation__search {
+    display: none;
+  }
+
+  .header-navigation__item-link {
+    padding-right: 100%;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px;
+  }
+
+  .header-navigation__item-icon {
+    margin-left: 8px;
+  }
+
+  .header-navigation__menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .more-list {
+    height: auto;
+    display: block;
+    position: initial;
+    margin: 6px -16px -4px;
+    padding-top: -8px;
+  }
+
+  .more-item {
+    background-color: #3d3c3c;
+    padding: 20px 24px;
+  }
+
+  .more-item>a {
+    text-decoration: none;
+    color: var(--white-color);
+  }
+
+  /* SLIDER */
+
+  .slider__text-content {
+    color: var(--white-color);
+    text-align: center;
+    line-height: 6px;
+  }
+
+  .slider__text-content--heading {
+    font-weight: 400;
+    font-size: 1.8rem;
+  }
+
+  .slider__text-content--desc {
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+
+  /* CONTENT */
+
+  .content-about__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-about__item {
+    margin-left: -32px;
+  }
+
+  .location {
+    flex-direction: column;
+  }
+
+  .content-match__location {
+    width: 100%;
+  }
+
+  .content-match__location--buy {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-contact__body {
+    flex-direction: column;
+  }
+
+  .content-contact__validation {
+    width: 100%;
+  }
+
+  .content-contact__validation--name {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+
+  .content-contact__validation--email {
+    font-size: 1.4rem;
+    margin-left: 0;
+    width: 100%;
+    margin-top: 12px;
+
+  }
+
+  .content-contact__validation--message {
+    font-size: 1.4rem;
+    margin-top: 12px;
+    width: 100%;
+  }
+
+  .content-contact__validation--submit {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+
+  /* FOOTER */
+
+  .footer-item a {
+    font-size: 2.2rem;
+  }
+
+  .footer-item p {
+    color: #575656;
+    font-size: 2.2rem;
+  }
+}

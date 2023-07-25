@@ -1,0 +1,231 @@
+/* PC */
+@media (min-width: 64em) {
+}
+
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  .sliderItem__price {
+    left: 2%;
+  }
+
+  .sliderItem__title {
+    color: black;
+    right: 1%;
+  }
+
+  .sliderItem__buy {
+    right: 1%;
+    padding: 12px 16px;
+  }
+
+  .product {
+    height: 69vh;
+  }
+  .product__img {
+    margin-top: 25%;
+  }
+
+  .slogan__item {
+    padding-top: 0;
+    margin-bottom: 50px;
+  }
+  .slogan__item-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .new-season__item-button{
+    font-size:20px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .leftFotter {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .fotter-item {
+    text-align: center;
+    padding: 0 6px;
+  }
+
+  .fotter-item__title {
+    font-size: 20px;
+  }
+
+  .fotter-item__desc {
+    font-size: 16px;
+  }
+
+  .rightFooter {
+    margin-top: 30px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 46.1875em) {
+  /* HEADER */
+
+  /* NAVBAR */
+  .navTop {
+    padding: 6px 20px;
+  }
+
+  .navTopItem__search {
+    display: none;
+  }
+
+  .navBottom__list {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navBottom__item {
+    text-align: center;
+    margin: 6px 20px;
+    font-size: 16px;
+  }
+
+  /* SLIDER */
+
+  .slider {
+    clip-path: none;
+  }
+
+  .sliderItem__img {
+    width: 100%;
+  }
+
+  .sliderItem__Bg {
+    width: 350px;
+    height: 350px;
+  }
+
+  .sliderItem__title {
+    font-size: 20px;
+    right: 6%;
+    padding: 20px 0;
+  }
+
+  .sliderItem__price {
+    top: 96%;
+  }
+
+  .sliderItem__buy {
+    top: 36%;
+    right: 6%;
+    padding: 8px 6px;
+    font-size: 16px;
+  }
+
+  /* FEATURE */
+  .featureList {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .feature__title{
+    margin: 2px;
+    font-size: 16px;
+    padding-top: 12px;
+  }
+
+  .feature__desc{
+    font-size: 14px;
+  }
+
+  /* PRODUCT */
+  .product {
+    display: flex;
+    flex-direction: column;
+    clip-path: none;
+    padding: 0 50px;
+  }
+
+  .product__img {
+    width: 90%;
+  
+  }
+
+  .product__details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    left: 29%;
+    top: 47%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .product__title {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .product__price {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .product__desc {
+    font-size: 16px;
+  }
+
+  /* SLOGAN */
+  .slogan {
+    display: none;
+  }
+
+  /* NEW SEASON */
+
+  .new-season__item-img {
+    height: 250px;
+  }
+
+  .new-season__item-titleSm {
+    font-size: 18px;
+  }
+
+  .new-season__item-title {
+    font-size: 14px;
+  }
+
+  .new-season__item-button {
+    background-color: white;
+    color: black;
+    padding: 6px 0;
+  }
+
+  /*  FOOTER*/
+  .footer {
+    flex-direction: column;
+  }
+
+  .leftFotter {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fotter-item {
+    text-align: center;
+    padding: 0 6px;
+  }
+
+  .fotter-item__title {
+    font-size: 16px;
+  }
+
+  .fotter-item__desc {
+    font-size: 14px;
+  }
+
+  .rightFooter {
+    margin-top: 30px;
+  }
+}
