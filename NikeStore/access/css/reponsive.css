@@ -183,7 +183,9 @@
   }
 
   /* NEW SEASON */
-
+  .new-season{
+    margin-top: 90px;
+  }
   .new-season__item-img {
     height: 250px;
   }
@@ -225,6 +227,11 @@
     font-size: 14px;
   }
 
+  .fotter-item__btn {
+    font-size: 20px;
+    margin-top: 6px;
+    width: 100%;
+  }
   .rightFooter {
     margin-top: 30px;
   }
