@@ -71,7 +71,7 @@ body {
 
 /* BANNER */
 .banner {
-  background: url(/final/img/hero4.png) top center / cover no-repeat;
+  background: url(/my-project/final/img/hero4.png) top center / cover no-repeat;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -101,7 +101,7 @@ body {
 }
 
 .banner__desc button {
-  background: url(/final/img/button.png) top center / cover no-repeat;
+  background: url(/my-project/final/img/button.png) top center / cover no-repeat;
   border: none;
   font-size: 25px;
   padding: 15px 60px;
@@ -246,7 +246,7 @@ body {
 
 /* BANNER 2 */
 .banner2 {
-  background: url(/final/img/banner/b2.jpg) top center / cover no-repeat;
+  background: url(/my-project/final/img/banner/b2.jpg) top center / cover no-repeat;
   width: 100%;
   height: 50vh;
   text-align: center;
@@ -293,13 +293,13 @@ body {
 }
 
 .sm-banner1-box {
-  background: url(/final/img/banner/b17.jpg) top center / cover no-repeat;
+  background: url(/my-project/final/img/banner/b17.jpg) top center / cover no-repeat;
   width: 49%;
   height: 50vh;
 }
 
 .sm-banner1-box:last-child {
-  background: url(/final/img/banner/b10.jpg) top center / cover no-repeat;
+  background: url(/my-project/final/img/banner/b10.jpg) top center / cover no-repeat;
 }
 
 .sm-banner1-box__desc {
@@ -345,19 +345,19 @@ body {
 }
 
 .sm-banner2-box {
-  background: url(/final/img/banner/b7.jpg) top center / cover no-repeat;
+  background: url(/my-project/final/img/banner/b7.jpg) top center / cover no-repeat;
   width: 30%;
   height: 30vh;
 }
 
 .sm-banner2-box:nth-child(2) {
-  background: url(/final/img/banner/b4.jpg) top center / cover no-repeat;
+  background: url(/my-project/final/img/banner/b4.jpg) top center / cover no-repeat;
   width: 35%;
 
 }
 
 .sm-banner2-box:nth-child(3) {
-  background: url(/final/img/banner/b18.jpg) top center / cover no-repeat;
+  background: url(/my-project/final/img/banner/b18.jpg) top center / cover no-repeat;
 }
 
 .sm-banner2-box__desc {
@@ -378,7 +378,7 @@ body {
 /* BANNER 3 */
 
 .banner3 {
-  background: url(/final/img/banner/b1.jpg) top center / cover no-repeat;
+  background: url(/my-project/final/img/banner/b1.jpg) top center / cover no-repeat;
   width: 100%;
   height: 40vh;
   display: flex;

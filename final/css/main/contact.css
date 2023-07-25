@@ -1,6 +1,6 @@
 /* LET TALK */
 .let-talk {
-  background: url(/final/img/about/banner.png) top center/ cover no-repeat;
+  background: url(/my-project/final/img/banner/b1.jpg) top center/ cover no-repeat;
   width: 100%;
   height: 40vh;
   margin: 100px 0;
@@ -158,4 +158,9 @@
   font-size: 20px;
   color: black;
   font-weight: 600;
+}
+
+
+.banner3{
+  background: url(/my-project/final/img/banner/b1.jpg) top center / cover no-repeat;
 }

@@ -1,5 +1,5 @@
 .cart-slogan {
-    background: url(/final/img/about/banner.png) top center/ cover no-repeat;
+    background: url(/my-project/final/img/banner/b2.jpg) top center/ cover no-repeat;
     width: 100%;
     height: 40vh;
     margin: 100px 0;
@@ -174,4 +174,8 @@
 
 .cart-total button:hover{
     background-color: #09eca4;
+}
+
+.banner3 {
+    background: url(/my-project/final/img/banner/b1.jpg) top center / cover no-repeat;
 }
